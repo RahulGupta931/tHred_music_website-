@@ -119,7 +119,7 @@ export const genres: Genre[] = [
       'A robot-run plant manufacturing wobble bass by the ton. Glitchy lasers, metallic growls and drops that bend the floor.',
     bpm: '140 BPM',
     mood: ['wobble', 'growl', 'glitch'],
-    image: '/assets/img/genre-dubstep.png',
+    image: '/assets/img/genre-dubstep.jpg',
     bg: '#6c4fd8',
     ink: '#fefbfa',
   },

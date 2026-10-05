@@ -101,7 +101,7 @@ export default function Collab() {
             EVERYONE GETS A <span className="text-stroke">SEAT</span> AT THE TABLE
           </h2>
           <p className="mt-5 max-w-lg text-ink/75 text-base md:text-lg leading-relaxed">
-            The universe expands when new characters walk in. THRED teams up with makers of every
+            The universe expands when new characters walk in. tHred teams up with makers of every
             kind — pull up a chair.
           </p>
 
@@ -136,7 +136,7 @@ export default function Collab() {
           </div>
 
           <a
-            href="mailto:bookings@thred.universe"
+            href="mailto:bookings@tHred.universe"
             data-cursor="SAY HI"
             className="btn-chunk inline-block mt-10 bg-coral text-paper font-display text-sm font-extrabold uppercase tracking-wider px-8 py-4 rounded-full border-[3px] border-ink"
           >

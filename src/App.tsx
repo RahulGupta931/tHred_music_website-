@@ -26,7 +26,7 @@ function Loader({ done }: { done: boolean }) {
       aria-hidden={done}
     >
       <div className="flex items-center gap-1 overflow-hidden">
-        {'THRED'.split('').map((l, i) => (
+        {'tHred'.split('').map((l, i) => (
           <span
             key={i}
             className="loader-letter font-display font-black text-6xl md:text-8xl text-cream"
@@ -70,7 +70,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="grain relative bg-ink">
+    <div className="grain relative">
       <CustomCursor />
       <Loader done={loaded} />
       <Nav />

@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const LETTERS = ['T', 'H', 'R', 'E', 'D'];
+const LETTERS = ['t', 'H', 'r', 'e', 'd'];
 
 const PARTICLES = [
   { left: '6%', top: '22%', size: 10, color: '#ffc531', pd: '11s', px: '30px', py: '-60px' },
@@ -143,7 +143,7 @@ export default function Hero() {
 
       {/* mascot */}
       <div className="absolute right-[2%] md:right-[7%] bottom-0 w-[52%] sm:w-[40%] md:w-[34%] max-w-[560px] pointer-events-none select-none" data-speed="1.05">
-        <img src="/assets/img/mascot.png" alt="THRED mascot" className="hero-mascot w-full anim-bob" />
+        <img src="/assets/img/mascot.png" alt="tHred mascot" className="hero-mascot w-full anim-bob" />
       </div>
 
       {/* rotating badge */}
@@ -175,7 +175,7 @@ export default function Hero() {
           ))}
         </h1>
 
-        <p className="hero-sub mt-7 max-w-md text-cream/85 text-base md:text-lg leading-relaxed font-body">
+        <p className="hero-sub mt-7 max-w-md text-white text-base md:text-lg leading-relaxed font-body">
           Hardbass, dubstep, trap, phonk &amp; everything heavy in between — drawn as a living
           cartoon universe where every track is a character and every drop bends the page.
         </p>

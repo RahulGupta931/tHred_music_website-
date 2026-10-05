@@ -136,7 +136,7 @@ export default function Genres() {
           ))}
         </h2>
         <p className="mt-5 max-w-lg text-cream/70 text-base md:text-lg">
-          Every THRED genre is its own illustrated world — own palette, own resident character,
+          Every tHred genre is its own illustrated world — own palette, own resident character,
           own laws of physics. Scroll sideways to visit them all.
         </p>
         <p className="mt-6 hidden md:flex items-center gap-3 font-display text-[10px] font-bold uppercase tracking-[0.3em] text-cream/50">

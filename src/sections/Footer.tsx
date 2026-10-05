@@ -40,7 +40,7 @@ export default function Footer() {
     <footer ref={root} className="relative bg-ink text-cream overflow-hidden">
       {/* ending marquee */}
       <Marquee
-        items={["LET'S MAKE NOISE", 'THRED', 'BASS UNIVERSE', 'STAY LOUD']}
+        items={["LET'S MAKE NOISE", 'tHred', 'BASS UNIVERSE', 'STAY LOUD']}
         className="bg-sun text-ink border-y-[3px] border-ink py-3 text-lg md:text-xl relative z-20 rotate-[-1deg] scale-[1.02]"
         duration={16}
       />
@@ -49,7 +49,7 @@ export default function Footer() {
       <div className="relative h-[70vh] min-h-[520px] overflow-hidden">
         <img
           src="/assets/img/footer-scene.png"
-          alt="THRED mascot walking into a sunset of speaker stacks"
+          alt="tHred mascot walking into a sunset of speaker stacks"
           className="footer-scene absolute inset-0 w-full h-[120%] object-cover object-top"
           loading="lazy"
         />
@@ -59,8 +59,8 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div>
               <div className="flex items-center gap-3">
-                <img src="/assets/img/logo.png" alt="THRED logo" className="w-12 h-12 object-contain rounded-full anim-floaty" />
-                <p className="font-display font-black text-2xl tracking-[0.15em]">THRED</p>
+                <img src="/assets/img/logo.png" alt="tHred logo" className="w-12 h-12 object-contain rounded-full anim-floaty" />
+                <p className="font-display font-black text-2xl tracking-[0.15em]">tHred</p>
               </div>
               <p className="mt-3 max-w-sm text-cream/70 text-sm leading-relaxed">
                 An illustrated bass music universe. Every genre a planet, every release a
@@ -82,8 +82,8 @@ export default function Footer() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-cream/15 flex flex-col sm:flex-row justify-between gap-3 text-[11px] font-display font-bold uppercase tracking-[0.2em] text-cream/50">
-            <span>© 2026 THRED — all frequencies reserved</span>
-            <span>Drawn loud. Mixed louder. ✦ bookings@thred.universe</span>
+            <span>© 2026 tHred — all frequencies reserved</span>
+            <span>Drawn loud. Mixed louder. ✦ bookings@tHred.universe</span>
           </div>
         </div>
       </div>
